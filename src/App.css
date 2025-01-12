@@ -1,0 +1,55 @@
+
+body{
+  margin: 0px;
+  background-color: gray;
+}
+.container h1{
+  font-family:"Verdana";
+  color:white;
+  font-size: 50px;
+  background-color: gray;
+}
+.image-container{
+  background-color: hsl(0, 60%, 90%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-container img{
+  border: 2px solid white;
+  margin:5px;
+  width: 300px;
+  height: 300px;
+}
+.container{
+  text-align: center;
+  background-color: gray;
+
+}
+#search{
+  font-size: 40px;
+  font-family: Verdana;
+}
+#searchIcon{
+  height: 40px;
+  width: 50px;
+}
+#searchButton{
+  cursor: pointer;
+}
+@media(max-width:480px){
+  .image-container img{
+    width: 150px;
+    height: 150px;
+  }
+  .container h1{
+    font-size: 25px;
+  }
+  #search{
+    font-size: 20px;
+  }
+  #searchIcon{
+    height: 20px;
+    width: 20px;
+  }
+}
