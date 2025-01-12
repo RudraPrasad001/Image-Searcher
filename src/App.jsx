@@ -18,6 +18,7 @@ const [imagefile,setImagefile]=useState({images:[]});
     <div>
       <SearchBar change={changeData}></SearchBar>
       <Images images={imagefile.images}></Images>
+      <footer style={{textAlign:"center"}}>Rudra Prasad</footer>
     </div>
   )
 }
