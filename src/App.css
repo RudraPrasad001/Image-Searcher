@@ -1,14 +1,13 @@
-/* Root Variables for Color Palette */
+
 :root {
-  --primary-bg: #f4f4f9; /* Light gray background */
-  --secondary-bg: #2c3e50; /* Dark blue-gray */
-  --accent-color: #e74c3c; /* Vibrant red accent */
-  --text-primary: #2c3e50; /* Dark blue-gray text */
-  --text-secondary: #ffffff; /* White text */
-  --border-color: #dfe4ea; /* Light gray border */
+  --primary-bg: #f4f4f9; 
+  --secondary-bg: #2c3e50; 
+  --accent-color: #e74c3c; 
+  --text-primary: #2c3e50;
+  --text-secondary: #ffffff; 
+  --border-color: #dfe4ea; 
 }
 
-/* General Reset */
 body {
   margin: 0;
   font-family: "Verdana", sans-serif;
@@ -17,7 +16,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header Container */
 .container {
   padding: 20px;
   border-bottom: 4px solid var(--border-color);
@@ -33,7 +31,6 @@ body {
   text-transform: uppercase;
 }
 
-/* Image Container */
 .image-container {
   height: 200vh;
   display: flex;
@@ -58,7 +55,6 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-/* Search Box */
 #search {
   font-size: 20px;
   padding: 10px;
@@ -94,7 +90,6 @@ body {
   background-color: #c0392b;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .image-container img {
     width: 200px;
